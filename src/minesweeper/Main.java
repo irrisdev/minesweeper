@@ -7,10 +7,10 @@ public class Main {
 		
 		
 		Minesweeper minesweep = new Minesweeper();
+				
+		minesweep.generate(8, 8);
 		
-		minesweep.setDifficulty(Difficulty.HARD);
-		
-		minesweep.generate(10, 10);
+		minesweep.start();
 		
 		minesweep.display();
 		
